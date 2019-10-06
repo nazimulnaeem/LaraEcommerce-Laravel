@@ -1,0 +1,101 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    min-height: 100%;
+    color: #000;
+    font-family: tahoma;
+    /* padding-bottom: 5rem; */
+}
+
+/* for payment method */
+.hidden{
+    display: none;
+}
+
+/*navbar Over ride CSS */
+.bg-light {
+    background-color: #006EB7!important;
+}
+.search-icon-button {
+    background: #FDD922;
+    border: 1px solid #FDD922;
+    transition: .4s;
+}
+.search-icon-button:hover {
+    background: #FDD922;
+    border: 1px solid #FDD922;
+    color: #fff;
+}
+.btn-cart-nav:hover{
+background: inherit!important;
+}
+
+/*end nav css */
+
+
+
+/* product css */
+.product-item{
+    background: #96daf1;
+}
+.child-rows{
+    padding-left: 20px;
+    border-left: 1ps solid #dfdfdf;
+    background: #FFF;
+}
+
+.child-rows a.list-group-item {
+border-left: 0px!important;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #08a7dc;
+    border-color: #08a7dc;
+    border-radius: 0px!important;
+}
+
+/* end product css */
+
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+    padding-right: 15px;
+    margin-right: 5px;
+    }
+.margin-top-20{
+    margin-top: 20px;
+}
+.feature-image{
+    max-height: 200px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.footer-botom{
+    padding: 20px;
+    margin-top: 20px;
+    background: #262626;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000;
+    background: #FFF;
+    border-radius: 6px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000;
+    background: #FFF;
+    border-radius: 6px;
+}
