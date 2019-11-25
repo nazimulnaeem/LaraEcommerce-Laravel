@@ -69,6 +69,8 @@
                                 </button>
                                 </a>
                             </li>
+                            
+                            
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">

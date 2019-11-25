@@ -66,7 +66,7 @@ class CartController extends Controller
         }
 
         session()->flash('success','Cart item has updated successfully !!');
-        return redirect()->route('carts');
+        return back();
     }
 
 

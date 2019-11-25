@@ -37,6 +37,7 @@
             </td>
             <td>
                 <form action="{{ route('cart.update',$cart->id) }}" method="post" class="form-inline">
+                @csrf
                   <input type="number" name="product_quantity" class="form-control" value="{{ $cart->product_quantity }}">
                   <button type="submit" class="btn btn-success ml-1">Update</button>
                 </form>
